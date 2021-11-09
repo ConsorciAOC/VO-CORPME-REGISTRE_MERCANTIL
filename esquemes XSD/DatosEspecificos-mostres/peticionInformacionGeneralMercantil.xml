@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peticionInformacionGeneralMercantil xmlns="http://www.aocat.net/registradors">
+	<ticket>String</ticket>
+</peticionInformacionGeneralMercantil>

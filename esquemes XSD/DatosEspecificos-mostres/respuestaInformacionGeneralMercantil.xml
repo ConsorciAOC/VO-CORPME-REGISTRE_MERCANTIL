@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<respuestaInformacionGeneralMercantil xmlns="http://www.aocat.net/registradors">
+	<peticionInformacionGeneralMercantil>
+		<ticket>String</ticket>
+	</peticionInformacionGeneralMercantil>
+	<codigoResultado>0</codigoResultado>
+	<literalError>String</literalError>
+	<fichero>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</fichero>
+</respuestaInformacionGeneralMercantil>

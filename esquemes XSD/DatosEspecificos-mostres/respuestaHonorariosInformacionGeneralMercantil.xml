@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<respuestaHonorariosInformacionGeneralMercantil xmlns="http://www.aocat.net/registradors">
+	<peticionHonorariosInformacionGeneralMercantil>
+		<segmentosSolicitados>
+			<capitalSocial>String</capitalSocial>
+			<representacionSocial-administradores>String</representacionSocial-administradores>
+			<representacionSocial-apoderados>String</representacionSocial-apoderados>
+			<representacionSocial-auditores>String</representacionSocial-auditores>
+			<actos>String</actos>
+			<cuentas>String</cuentas>
+			<libros>String</libros>
+		</segmentosSolicitados>
+	</peticionHonorariosInformacionGeneralMercantil>
+	<codigoResultado>0</codigoResultado>
+	<literalError>String</literalError>
+	<ticket>String</ticket>
+	<segmentosDisponibles>
+		<capitalSocial>String</capitalSocial>
+		<representacionSocial-administradores>String</representacionSocial-administradores>
+		<representacionSocial-apoderados>String</representacionSocial-apoderados>
+		<representacionSocial-auditores>String</representacionSocial-auditores>
+		<actos>String</actos>
+		<cuentas>String</cuentas>
+		<libros>String</libros>
+	</segmentosDisponibles>
+	<honorarios>String</honorarios>
+</respuestaHonorariosInformacionGeneralMercantil>

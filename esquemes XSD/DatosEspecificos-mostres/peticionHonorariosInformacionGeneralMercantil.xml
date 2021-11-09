@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peticionHonorariosInformacionGeneralMercantil xmlns="http://www.aocat.net/registradors">
+	<segmentosSolicitados>
+		<capitalSocial>String</capitalSocial>
+		<representacionSocial-administradores>String</representacionSocial-administradores>
+		<representacionSocial-apoderados>String</representacionSocial-apoderados>
+		<representacionSocial-auditores>String</representacionSocial-auditores>
+		<actos>String</actos>
+		<cuentas>String</cuentas>
+		<libros>String</libros>
+	</segmentosSolicitados>
+</peticionHonorariosInformacionGeneralMercantil>
