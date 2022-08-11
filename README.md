@@ -12,7 +12,19 @@
 | V1.1 | 19/10/2009 | Roger Noguera Arnau | Ampliació d&#39;informació dels honoraris |
 
 
-# 1 Introducció
+## INDEX
+
+- [1. Introducció](#1)
+- [2. Transmissions de dades disponibles](#2)
+- [3. Missatgeria del servei](#3)
+   * [3.1 Nota informativa mercantil (INFO\_MERCANTIL)](#3.1)
+        * [3.1.1 Fase 1: consulta d&#39;informació disponible i honoraris](#3.1.1)
+		* [3.1.2 Fase 2: consulta d&#39;informació mercantil](#3.1.2)
+- [4. Joc de proves](#4)
+   
+
+
+# 1 Introducció <a name="1"></a>
 
 Aquest document detalla la missatgeria associada al servei del Registre Mercantil.
 
@@ -23,7 +35,7 @@ Per poder realitzar la integració cal conèixer prèviament la següent documen
 
 [PCI]:https://github.com/ConsorciAOC/PCI
 
-# 2 Transmissions de dades disponibles
+# 2 Transmissions de dades disponibles <a name="2"></a>
 
 Les dades disponibles a través del servei són les que es presenten a continuació:
 
@@ -36,11 +48,11 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 | **REGISTRE\_MERCANTIL** | INFO\_MERCANTIL | Nota mercantil.|
 
 
-# 3 Missatgeria dels serveis
+# 3 Missatgeria del servei <a name="3"></a>
 
 A continuació es detalla la missatgeria corresponent de les modalitats de consum del producte REGISTRE\_MERCANTIL.
 
-## 3.1 Nota informativa mercantil (INFO\_MERCANTIL)
+## 3.1 Nota informativa mercantil (INFO\_MERCANTIL) <a name="3.1"></a>
 
 Per restriccions imposades pel servei de l&#39;emissor final, l&#39;obtenció de la informació mercantil d&#39;una determinada denominació social s&#39;ha de realitzar en dues fases:
 
@@ -53,8 +65,8 @@ Per restriccions imposades pel servei de l&#39;emissor final, l&#39;obtenció de
 
 ---
 
-### 3.1.1 Fase 1: consulta d&#39;informació disponible i honoraris
-
+### 3.1.1 Fase 1: consulta d&#39;informació disponible i honoraris <a name="3.1.1"></a>
+ 
 #### 3.1.1.1 Petició
 
 Per tal d&#39;obtenir la informació mercantil disponible d&#39;una determinada denominació social, cal informar les següents dades en el bloc de dades genèriques de la petició:
@@ -106,7 +118,7 @@ Addicionalment, en el missatge específic de la petició cal indicar aquella inf
 ```
 ![2](captures/2.png)
 
-### 3.1.2 Fase 2: consulta d&#39;informació mercantil
+### 3.1.2 Fase 2: consulta d&#39;informació mercantil <a name="3.1.2"></a>
 
 ---
 ![image](https://user-images.githubusercontent.com/32306731/137281698-9dfc2044-94f7-487f-a7d6-9a4e0707feb3.png) Per aquesta consulta es recomana establir un _timeout_ ampli (fins a 1 minut) degut a que la generació de respostes per part del CORPME pot ser costosa en alguns casos.
@@ -146,7 +158,7 @@ Addicionalment, en el missatge específic de la petició cal indicar el tiquet o
 
 ![4](captures/4.png)
 
-# 4 Joc de proves
+# 4 Joc de proves <a name="4"></a>
 
 El següent CIF de proves proporcionat pel CORPME aplica a l&#39;entorn de pre-producció.
 
